@@ -1,13 +1,13 @@
-# Translated by Yaochiu Huang. 
-# In case of wrong translation, please contact brian.huang@primillet.com
-# 20120720T0924
+# Translated by zphj1987. 
+# In case of wrong translation, please contact 199383004@qq.com
+# 20150312T1623
 msgid ""
 msgstr ""
 "Project-Id-Version: Zabbix 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 23:22+0200\n"
-"PO-Revision-Date: 2015-03-12 11:57+0800\n"
-"Last-Translator: Wayne Wang <net_use@bzhy.com>\n"
+"PO-Revision-Date: 2015-03-12 17:12+0800\n"
+"Last-Translator: zphj1987 <199383004@qq.com>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: maintenance.php:163 services.php:194 services.php:208
 #, c-format
 msgid "\"%s\" must be between 1970.01.01 and 2038.01.18."
-msgstr "\"%s\" 必须位于1970.01.01 和 2038.01.18之间."
+msgstr "\"%s\" 必须在 1970.01.01 和 2038.01.18之间."
 
 #: include/profiles.inc.php:97
 msgid "\"Display OK triggers\" needs to be \"0\" or a positive integer."
@@ -2923,27 +2923,27 @@ msgstr "条件"
 #: include/menu.inc.php:145 include/views/inventory.host.view.php:248
 #: jsLoader.php:184
 msgid "Configuration"
-msgstr "组态"
+msgstr "配置"
 
 #: include/classes/items/CHelpItems.php:875
 msgid "Configuration cache statistics. Cache - buffer (modes: pfree, total, used, free)."
-msgstr "配置缓存统计.缓存—缓冲(模式：空闲的百分数，总计，已使用，未使用"
+msgstr "配置缓存统计.缓存—缓冲(模式：空闲的百分数，总计，已使用，未使用）"
 
 #: conf.import.php:25
 msgid "Configuration import"
-msgstr "组态汇入"
+msgstr "导入配置"
 
 #: adm.gui.php:24
 msgid "Configuration of GUI"
-msgstr "图形化介面的组态"
+msgstr "图形界面的配置"
 
 #: services.php:27
 msgid "Configuration of IT services"
-msgstr "IT服务的组态"
+msgstr "IT服务的配置"
 
 #: include/audit.inc.php:25
 msgid "Configuration of Zabbix"
-msgstr "Zabbix的组态"
+msgstr "Zabbix的配置"
 
 #: actionconf.php:27
 msgid "Configuration of actions"
@@ -3484,7 +3484,7 @@ msgstr "D"
 
 #: include/views/monitoring.dashconf.php:24
 msgid "DASHBOARD CONFIGURATION"
-msgstr "仪表板配置"
+msgstr "个人中心"
 
 #: include/views/configuration.host.discovery.edit.php:142
 #: include/views/configuration.item.edit.php:148
@@ -5699,7 +5699,7 @@ msgstr "梯度线"
 #: include/views/monitoring.history.php:88 latest.php:578 latest.php:765
 #: report2.php:397
 msgid "Graph"
-msgstr "图形"
+msgstr "图表"
 
 #: include/classes/api/services/CGraph.php:435
 #: include/classes/api/services/CGraphPrototype.php:445
@@ -5871,7 +5871,7 @@ msgstr "同名但不同类型的图形已存在."
 #: search.php:277 search.php:330 search.php:397 search.php:434 search.php:457
 #: templates.php:512 templates.php:573
 msgid "Graphs"
-msgstr "图形"
+msgstr "图表"
 
 #: graphs.php:374
 msgid "Graphs copied"
@@ -6015,11 +6015,11 @@ msgstr "主机组问题"
 #: include/views/inventory.host.list.php:26
 #: include/views/inventory.host.view.php:23
 msgid "HOST INVENTORY"
-msgstr "主机资产"
+msgstr "主机库存"
 
 #: hostinventoriesoverview.php:72
 msgid "HOST INVENTORY OVERVIEW"
-msgstr "主机资产记录概览"
+msgstr "主机库存概览"
 
 #: include/classes/screens/CScreenHostTriggers.php:131
 msgid "HOST ISSUES"
@@ -6055,7 +6055,7 @@ msgstr "硬件"
 
 #: include/hosts.inc.php:175
 msgid "Hardware (Full details)"
-msgstr "硬体(全细节)"
+msgstr "硬体(详细)"
 
 #: include/views/configuration.httpconf.edit.php:143
 #: include/views/configuration.httpconf.popup.php:91
@@ -6129,7 +6129,7 @@ msgstr "严重"
 #: jsLoader.php:203 latest.php:477 latest.php:478 latest.php:583
 #: latest.php:770
 msgid "History"
-msgstr "历史记录"
+msgstr "浏览历史"
 
 #: httpconf.php:175 httpconf.php:425 items.php:532 items.php:539 items.php:793
 #: items.php:805
@@ -6139,16 +6139,16 @@ msgstr "历史已清除"
 #: include/views/configuration.httpconf.edit.php:310
 #: include/views/configuration.item.edit.php:448
 msgid "History clearing can take a long time. Continue?"
-msgstr "历史清除可能会很久?继续吗?"
+msgstr "清除历史记录需要较长时间?继续吗?"
 
 #: adm.housekeeper.php:59
 msgid "History data storage period"
-msgstr "历史数据保留时长"
+msgstr "历史数据保留时间"
 
 #: adm.housekeeper.php:112
 #, c-format
 msgid "History data storage period (in days) \"%1$s\"."
-msgstr "因为数据保留时长(单位天)\"%1$s\"."
+msgstr "历史数据保留时间(单位天)\"%1$s\"."
 
 #: include/screens.inc.php:32
 msgid "History of events"
@@ -6156,7 +6156,7 @@ msgstr "事件的历史"
 
 #: disc_prototypes.php:117 items.php:54
 msgid "History storage period"
-msgstr "历史数据保留时长"
+msgstr "历史数据保存时间"
 
 #: include/views/configuration.item.edit.php:329
 #: include/views/configuration.item.massupdate.php:381
@@ -6221,16 +6221,16 @@ msgstr "主机 \"%1$s\" 已存在."
 #: include/classes/api/services/CProxy.php:576
 #, c-format
 msgid "Host \"%1$s\" is monitored with proxy \"%2$s\"."
-msgstr "主机\"%1$s\"是以系统代理程式\"%2$s\"来监控的."
+msgstr "主机\"%1$s\"是用系统代理\"%2$s\"来监控的."
 
 #: include/classes/import/CXmlImport18.php:997
 #, c-format
 msgid "Host \"%s\" has \"useipmi\" parameter checked, but has no \"ipmi_ip\" parameter! Using host IP address as an address for IPMI interface."
-msgstr "主机 \"%s\" 有 \"useipmi\" 参数已检验,  但是没有 \"ipmi_ip\" 参数! 使用主机IP位址为IPMI介面的位址."
+msgstr "主机 \"%s\" 有 \"useipmi\" 的参数已选择,  但是没有 \"ipmi_ip\" 参数! 使用主机IP位址作为IPMI的接口."
 
 #: include/views/configuration.screen.constructor.edit.php:437
 msgid "Host (ascending)"
-msgstr "主机(升幂)"
+msgstr "主机(升序)"
 
 #: include/actions.inc.php:74
 msgid "Host IP"
@@ -6338,11 +6338,11 @@ msgstr "主机介面"
 #: hostinventories.php:26 include/views/configuration.host.edit.php:913
 #: include/views/configuration.host.prototype.edit.php:322 jsLoader.php:204
 msgid "Host inventory"
-msgstr "主机资产记录"
+msgstr "主机库存"
 
 #: hostinventoriesoverview.php:26
 msgid "Host inventory overview"
-msgstr "主机资产记录概览"
+msgstr "主机库存概览"
 
 #: include/screens.inc.php:40
 msgid "Host issues"
@@ -8012,7 +8012,7 @@ msgstr "所给的\"%s\"为无效的检视名称.  可用的: \"a-z\" 和 \".\"."
 
 #: include/menu.inc.php:99 include/views/configuration.host.massupdate.php:338
 msgid "Inventory"
-msgstr "资产记录"
+msgstr "库存"
 
 #: include/classes/api/services/CHost.php:1170
 #, c-format
@@ -8034,7 +8034,7 @@ msgstr "是否在线?"
 #: include/blocks.inc.php:991 include/blocks.inc.php:1000
 #: include/blocks.inc.php:1296
 msgid "Issue"
-msgstr "议题"
+msgstr "问题"
 
 #: include/classes/api/services/CUser.php:141
 msgid "It is not possible to filter by user password."
@@ -8968,7 +8968,7 @@ msgstr "手动登出"
 #: include/views/js/configuration.sysmaps.js.php:111 jsLoader.php:142
 #: map.php:25
 msgid "Map"
-msgstr "拓墣图"
+msgstr "拓扑图"
 
 #: include/classes/import/CXmlImport18.php:686
 #, c-format
@@ -8978,7 +8978,7 @@ msgstr "略过拓墣图\"%1$s\"-用户规则."
 #: include/views/configuration.sysmap.constructor.php:67
 #, c-format
 msgid "Map \"%s\""
-msgstr "拓墣图\"%s\""
+msgstr "拓扑图\"%s\""
 
 #: include/classes/import/CXmlImport18.php:867
 #, c-format
@@ -9026,7 +9026,7 @@ msgstr "对应"
 #: include/views/conf.import.php:38 include/views/monitoring.maps.php:36
 #: popup.php:99
 msgid "Maps"
-msgstr "拓墣图"
+msgstr "拓扑图"
 
 #: include/func.inc.php:239
 msgid "Mar"
@@ -9599,7 +9599,7 @@ msgstr "网路拓墣图已添加"
 
 #: maps.php:25
 msgid "Network maps"
-msgstr "网络结拓墣图"
+msgstr "网络拓扑图"
 
 #: httpmon.php:173 include/func.inc.php:208
 msgid "Never"
@@ -11054,7 +11054,7 @@ msgstr "覆盖监控项趋势期间"
 #: include/views/monitoring.overview.triggers.php:34 overview.php:27
 #: queue.php:69
 msgid "Overview"
-msgstr "总览"
+msgstr "概览"
 
 #: queue.php:70
 msgid "Overview by proxy"
