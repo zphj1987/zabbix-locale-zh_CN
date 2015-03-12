@@ -6,6 +6,12 @@
 覆盖即可，目前还没有开始翻译
 
 
+zabbix 版本为2.4 
+
+下载的包的路径: 
+
+	http://repo.zabbix.com/zabbix/2.4/rhel/6/x86_64/
+
 
 
 
