@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zabbix 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 23:22+0200\n"
-"PO-Revision-Date: 2015-03-12 17:12+0800\n"
+"PO-Revision-Date: 2015-03-12 17:57+0800\n"
 "Last-Translator: zphj1987 <199383004@qq.com>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: zh_CN\n"
@@ -1133,12 +1133,12 @@ msgstr "图片的组态"
 #: include/views/configuration.services.edit.php:30
 #: include/views/configuration.services.list.php:23
 msgid "CONFIGURATION OF IT SERVICES"
-msgstr "IT服务的组态"
+msgstr "IT服务的配置"
 
 #: disc_prototypes.php:369
 #: include/views/configuration.item.prototype.list.php:29
 msgid "CONFIGURATION OF ITEM PROTOTYPES"
-msgstr "项目原型的组态"
+msgstr "项目原型的配置"
 
 #: include/views/configuration.item.list.php:39
 #: include/views/configuration.item.massupdate.php:28 items.php:860
@@ -1148,7 +1148,7 @@ msgstr "项目的组态"
 
 #: adm.macros.php:173
 msgid "CONFIGURATION OF MACROS"
-msgstr "巨集的组态"
+msgstr "宏的配置"
 
 #: include/views/configuration.maintenance.edit.php:23
 #: include/views/configuration.maintenance.list.php:28
@@ -1179,12 +1179,12 @@ msgstr "正规表示法的组态"
 #: include/views/configuration.screen.edit.php:23
 #: include/views/configuration.screen.list.php:35
 msgid "CONFIGURATION OF SCREENS"
-msgstr "筛选的组态"
+msgstr "屏幕的配置"
 
 #: include/views/administration.script.edit.php:25
 #: include/views/administration.script.list.php:27
 msgid "CONFIGURATION OF SCRIPTS"
-msgstr "脚本的组态"
+msgstr "脚本的配置"
 
 #: include/views/configuration.slideconf.edit.php:25
 #: include/views/configuration.slideconf.list.php:28
@@ -1193,13 +1193,13 @@ msgstr "简报片展示的组态"
 
 #: templates.php:434 templates.php:494
 msgid "CONFIGURATION OF TEMPLATES"
-msgstr "模板的组态"
+msgstr "模板的配置"
 
 #: include/views/configuration.triggers.edit.php:37
 #: include/views/configuration.triggers.list.php:42
 #: include/views/configuration.triggers.massupdate.php:39
 msgid "CONFIGURATION OF TRIGGER PROTOTYPES"
-msgstr "触发器原型的组态"
+msgstr "触发器原型的配置"
 
 #: adm.triggerseverities.php:97
 msgid "CONFIGURATION OF TRIGGER SEVERITIES"
@@ -1209,7 +1209,7 @@ msgstr "触发器严重性的组态"
 #: include/views/configuration.triggers.list.php:54
 #: include/views/configuration.triggers.massupdate.php:42 triggers.php:368
 msgid "CONFIGURATION OF TRIGGERS"
-msgstr "触发器的组态"
+msgstr "触发器的配置"
 
 #: include/views/administration.usergroups.edit.php:23
 #: include/views/administration.usergroups.list.php:31
@@ -1223,20 +1223,20 @@ msgstr "用户配置"
 
 #: adm.valuemapping.php:149
 msgid "CONFIGURATION OF VALUE MAPPING"
-msgstr "数值对应的组态"
+msgstr "数值对应的配置"
 
 #: include/views/configuration.httpconf.edit.php:25
 #: include/views/configuration.httpconf.list.php:39
 msgid "CONFIGURATION OF WEB MONITORING"
-msgstr "WEB监控的组态"
+msgstr "WEB监控的配置"
 
 #: adm.workingtime.php:78
 msgid "CONFIGURATION OF WORKING TIME"
-msgstr "工作时间的组态"
+msgstr "工作时间的配置"
 
 #: adm.triggerdisplayoptions.php:91
 msgid "CONFIGURATION OF ZABBIX"
-msgstr "Zabbix的组态"
+msgstr "Zabbix的配置"
 
 #: include/classes/items/CHelpItems.php:185
 #: include/classes/items/CHelpItems.php:447
@@ -4726,7 +4726,7 @@ msgstr "错误"
 
 #: tr_events.php:98
 msgid "EVENTS"
-msgstr "事件"
+msgstr "告警"
 
 #: jsLoader.php:154
 msgid "Each URL should have a unique name. Please make sure there is only one URL named"
@@ -5137,7 +5137,7 @@ msgstr "只有超级管理员能创建群组"
 #: include/views/inventory.host.view.php:216 jsLoader.php:191 search.php:136
 #: search.php:222 search.php:276 search.php:329
 msgid "Events"
-msgstr "事件"
+msgstr "最新告警"
 
 #: include/views/administration.general.housekeeper.edit.php:61
 msgid "Events and alerts"
@@ -5699,7 +5699,7 @@ msgstr "梯度线"
 #: include/views/monitoring.history.php:88 latest.php:578 latest.php:765
 #: report2.php:397
 msgid "Graph"
-msgstr "图表"
+msgstr "自定义图表"
 
 #: include/classes/api/services/CGraph.php:435
 #: include/classes/api/services/CGraphPrototype.php:445
@@ -5871,7 +5871,7 @@ msgstr "同名但不同类型的图形已存在."
 #: search.php:277 search.php:330 search.php:397 search.php:434 search.php:457
 #: templates.php:512 templates.php:573
 msgid "Graphs"
-msgstr "图表"
+msgstr "自定义图表"
 
 #: graphs.php:374
 msgid "Graphs copied"
@@ -8811,7 +8811,7 @@ msgstr "Mac位址B"
 
 #: include/maps.inc.php:539
 msgid "MAINTENANCE"
-msgstr "维修"
+msgstr "维护"
 
 #: include/hosts.inc.php:39
 msgid "MD2"
@@ -8889,7 +8889,7 @@ msgstr "巨集已更新"
 #: include/views/configuration.maintenance.edit.php:185
 #: include/views/js/configuration.sysmaps.js.php:150
 msgid "Maintenance"
-msgstr "维修"
+msgstr "维护"
 
 #: include/classes/api/services/CMaintenance.php:356
 #: include/classes/api/services/CMaintenance.php:370
@@ -12234,7 +12234,7 @@ msgstr "S"
 #: include/views/monitoring.screen.php:33
 #: include/views/monitoring.screen.php:58
 msgid "SCREENS"
-msgstr "筛选"
+msgstr "屏幕"
 
 #: search.php:74
 msgid "SEARCH"
@@ -12258,7 +12258,7 @@ msgstr "SLA"
 #: include/views/monitoring.slides.php:56
 #: include/views/monitoring.slides.php:98
 msgid "SLIDE SHOWS"
-msgstr "简报片展示"
+msgstr "幻灯片展示"
 
 #: include/media.inc.php:26
 #: include/views/administration.mediatypes.edit.php:42
@@ -12452,53 +12452,53 @@ msgstr "按计划检查"
 #: include/views/configuration.screen.list.php:53
 #: include/views/configuration.slideconf.edit.php:50
 msgid "Screen"
-msgstr "筛选"
+msgstr "屏幕"
 
 #: include/classes/import/CXmlImport18.php:603
 #, c-format
 msgid "Screen \"%1$s\" added."
-msgstr "筛选 \"%1$s\" 已添加."
+msgstr "屏幕 \"%1$s\" 已添加."
 
 #: include/classes/api/services/CTemplateScreen.php:699
 msgid "Screen \"%1$s\" already exists on template \"%2$2\"."
-msgstr "筛选\"%1$s\"已存在于模板\"%2$2\"中."
+msgstr "屏幕\"%1$s\"已存在于模板\"%2$2\"中."
 
 #: include/classes/api/services/CScreen.php:386
 #: include/classes/api/services/CScreen.php:459
 #, c-format
 msgid "Screen \"%1$s\" already exists."
-msgstr "筛选\"%1$s\"已存在."
+msgstr "屏幕\"%1$s\"已存在."
 
 #: include/classes/api/services/CScreenItem.php:945
 #: include/classes/api/services/CScreenItem.php:969
 #, c-format
 msgid "Screen \"%1$s\" cell X - %2$s Y - %3$s is already taken."
-msgstr "图表\"%1$s\" 单元格X-%2$s Y - %3$s已经使用."
+msgstr "屏幕\"%1$s\" 单元格X-%2$s Y - %3$s已经使用."
 
 #: include/classes/api/services/CScreenItem.php:845
 #, c-format
 msgid "Screen \"%1$s\" column span in cell X - %2$s Y - %3$s is incorrect."
-msgstr "图表 \"%1$s\"单元格X - %2$s Y - %3$s列合并不正确."
+msgstr "屏幕 \"%1$s\"单元格X - %2$s Y - %3$s列合并不正确."
 
 #: include/classes/api/services/CScreenItem.php:894
 #, c-format
 msgid "Screen \"%1$s\" column span in cell X - %2$s Y - %3$s is too big."
-msgstr "图表 \"%1$s\"单元格X - %2$s Y - %3$s太大."
+msgstr "屏幕 \"%1$s\"单元格X - %2$s Y - %3$s太大."
 
 #: include/classes/api/services/CScreenItem.php:831
 #, c-format
 msgid "Screen \"%1$s\" row span in cell X - %2$s Y - %3$s is incorrect."
-msgstr "图表\"%1$s\"单元格X - %2$s Y - %3$s行合并不正确. "
+msgstr "屏幕\"%1$s\"单元格X - %2$s Y - %3$s行合并不正确. "
 
 #: include/classes/api/services/CScreenItem.php:881
 #, c-format
 msgid "Screen \"%1$s\" row span in cell X - %2$s Y - %3$s is too big."
-msgstr "图表\"%1$s\"单元格X - %2$s Y - %3$s行合并太大."
+msgstr "屏幕\"%1$s\"单元格X - %2$s Y - %3$s行合并太大."
 
 #: include/classes/import/CXmlImport18.php:449
 #, c-format
 msgid "Screen \"%1$s\" skipped - user rule."
-msgstr "略过筛选\"%1$s\"-用户规则."
+msgstr "忽略\"%1$s\" 屏幕-用户规则."
 
 #: include/classes/import/CXmlImport18.php:600
 #, c-format
@@ -12507,7 +12507,7 @@ msgstr "筛选\"%1$s\"已更新."
 
 #: screenconf.php:165
 msgid "Screen added"
-msgstr "筛选已添加"
+msgstr "屏幕已添加"
 
 #: include/views/configuration.screen.constructor.edit.php:734
 msgid "Screen cell configuration"
@@ -12536,7 +12536,7 @@ msgstr "筛选已更新"
 #: search.php:138 search.php:224 search.php:398 search.php:438 search.php:458
 #: templates.php:513 templates.php:575
 msgid "Screens"
-msgstr "筛选"
+msgstr "屏幕"
 
 #: include/audit.inc.php:48 include/media.inc.php:25
 #: include/views/administration.mediatypes.edit.php:41
@@ -13086,7 +13086,7 @@ msgstr "简报片"
 
 #: include/audit.inc.php:44 include/views/monitoring.slides.php:76
 msgid "Slide show"
-msgstr "简报片展示"
+msgstr "幻灯片展示"
 
 #: include/screens.inc.php:245
 #, c-format
@@ -13119,7 +13119,7 @@ msgstr "简报片展示已更新"
 #: include/views/monitoring.screen.php:28
 #: include/views/monitoring.slides.php:30 popup.php:83
 msgid "Slide shows"
-msgstr "简报片展示"
+msgstr "幻灯片展示"
 
 #: include/views/configuration.slideconf.edit.php:98
 msgid "Slides"
@@ -14214,7 +14214,7 @@ msgstr "触发器已删除"
 
 #: include/classes/html/CTriggersInfo.php:107 include/screens.inc.php:42
 msgid "Triggers info"
-msgstr "触发器资讯"
+msgstr "触发器信息"
 
 #: include/screens.inc.php:43
 msgid "Triggers overview"
@@ -14226,7 +14226,7 @@ msgstr "触发器状态"
 
 #: include/menu.inc.php:129
 msgid "Triggers top 100"
-msgstr "前百大触发器"
+msgstr "触发器 top 100"
 
 #: include/views/monitoring.dashconf.php:99
 msgid "Triggers with severity"
