@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Zabbix 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 23:22+0200\n"
-"PO-Revision-Date: 2015-03-12 17:57+0800\n"
+"PO-Revision-Date: 2015-03-13 15:15+0800\n"
 "Last-Translator: zphj1987 <199383004@qq.com>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: zh_CN\n"
@@ -687,7 +687,7 @@ msgstr "包括任何字元字串"
 #: include/views/inventory.host.view.php:240
 #: include/views/js/configuration.sysmaps.js.php:118 latest.php:404
 msgid "Application"
-msgstr "应用集"
+msgstr "用途"
 
 #: include/classes/api/services/CApplication.php:354
 #, c-format
@@ -728,7 +728,7 @@ msgstr "ID为 \"%1$s\"的应用集不在 \"%2$s\" 之中."
 #: popup.php:55 search.php:140 search.php:169 search.php:197 search.php:394
 #: search.php:422 search.php:454 templates.php:509 templates.php:567
 msgid "Applications"
-msgstr "应用集"
+msgstr "用途"
 
 #: include/views/js/configuration.sysmaps.js.php:200
 #: include/views/js/configuration.sysmaps.js.php:301
@@ -4457,7 +4457,7 @@ msgstr "已探索到的装置"
 #: search.php:201 search.php:399 search.php:442 search.php:459
 #: templates.php:514 templates.php:577
 msgid "Discovery"
-msgstr "探索"
+msgstr "发现"
 
 #: include/views/configuration.discovery.edit.php:47
 msgid "Discovery by proxy"
@@ -5220,11 +5220,11 @@ msgstr "爆发的"
 #: hosts.php:1065 include/views/configuration.screen.list.php:68
 #: include/views/configuration.sysmap.list.php:62 templates.php:667
 msgid "Export selected"
-msgstr "汇出所选的"
+msgstr "导出选择的"
 
 #: events.php:298
 msgid "Export to CSV"
-msgstr "汇出到CSV"
+msgstr "导出到CSV"
 
 #: include/triggers.inc.php:1462
 #: include/views/administration.general.iconmap.edit.php:41
@@ -6917,7 +6917,7 @@ msgstr "立即地"
 #: include/views/conf.import.php:83 include/views/conf.import.php:88
 #: templates.php:490
 msgid "Import"
-msgstr "汇入"
+msgstr "导入"
 
 #: conf.import.php:196
 msgid "Import failed"
@@ -8059,7 +8059,7 @@ msgstr "意大利语 (it_IT)"
 #: include/views/configuration.triggers.expression.php:57 items.php:531
 #: items.php:792 items.php:825 tr_logform.php:251
 msgid "Item"
-msgstr "项目"
+msgstr "监控项目"
 
 #: jsLoader.php:200
 #, c-format
@@ -8263,7 +8263,7 @@ msgstr "键值为\"%1$s\"的项目已经存在."
 #: search.php:395 search.php:426 search.php:455 templates.php:510
 #: templates.php:569
 msgid "Items"
-msgstr "项目"
+msgstr "监控项目"
 
 #: include/classes/html/CServerInfo.php:54
 msgid "Items (m/d/n)"
@@ -8645,11 +8645,11 @@ msgstr "与模板连结"
 #: include/views/configuration.template.edit.php:485
 #: include/views/configuration.template.edit.php:512 templates.php:516
 msgid "Linked templates"
-msgstr "连结的模板"
+msgstr "当前模板链接的模板"
 
 #: templates.php:517
 msgid "Linked to"
-msgstr "已连结到"
+msgstr "当前模板被链接"
 
 #: include/views/js/configuration.sysmaps.js.php:332
 msgid "Links between the selected elements"
